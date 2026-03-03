@@ -1,0 +1,181 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 120px 16px 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+h1 {
+  font-style: 48px;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 16px 0;
+  list-style: none;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 110px;
+  height: auto;
+}
+
+.container {
+  border-radius: 6px;
+  padding: 64px;
+  background: #ffffff;
+  width: 100%;
+  max-width: 820px;
+}
+
+.pai {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.pai h3 {
+  padding-bottom: 13px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+input {
+  background: #dce7ea;
+  color: #939393;
+  padding: 16px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+fieldset textarea {
+  background: #dce7ea;
+  color: #939393;
+  padding: 16px;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 10px;
+  width: 100%;
+}
+
+.submit_button {
+  background-color: #353535;
+  color: #ffffff;
+  padding: 24px 0px;
+}
+
+.principal {
+  display: flex;
+  gap: 16px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: #ffffff;
+    width: 100%;
+    max-width: 410px;
+  }
+
+  .pai h3 {
+    padding-bottom: 13px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  input {
+    background: #dce7ea;
+    color: #939393;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+  }
+
+  textarea {
+    background: #dce7ea;
+    color: #939393;
+    padding: 8px;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+    width: 100%;
+  }
+
+  fieldset button {
+    background-color: #353535;
+    color: #ffffff;
+    width: 100%;
+    max-width: 410px;
+  }
+
+  .principal {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .menu_ham {
+    display: none;
+  }
+}
